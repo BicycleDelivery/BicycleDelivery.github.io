@@ -301,13 +301,17 @@ header .intro-text {
 	
 	padding: 120px 0;
 }
+#team p{
+	font-size: 15px;
+}
 #team h2::after {
 	bottom: 0;
 	margin-left: 0;
 	left: 0;
 }
 #team img {
-	width: 100%;
+	border-radius: 50%;
+	width: 150px;
 }
 #team .team-img {
 	display: inline-block;
@@ -556,4 +560,8 @@ color: #999;
 }
 .del{
 	font-style: italic;
+}
+.guy{
+	display: inline-block;
+	padding: 10px;
 }
