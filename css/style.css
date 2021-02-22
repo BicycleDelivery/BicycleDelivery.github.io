@@ -54,11 +54,11 @@ p.intro {
 	line-height: 24px;
 }
 a {
-	color: #8eb640;
+	color: #ffffff;
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #222;
+	color:#d43031;
 }
 ul, ol {
 	list-style: none;
@@ -209,7 +209,7 @@ header .intro-text {
 	margin: 0 20px;
 }
 #features img {
-	margin: 30px auto 20px;
+	margin: 30px auto -20px;
 }
 #features .about-img:before {
 	display: block;
@@ -524,4 +524,36 @@ color: #999;
 .theme_color {
 	color: #cc0033 !important;
 	font-size: 14px;
+}
+
+.fb{
+	width: 50px;
+	opacity: 0.7;
+	padding-bottom: 5px;
+}
+.fb:hover{
+	opacity: 1;
+	width: 52px;
+}
+.flotting-button{
+	position: fixed;
+  bottom: 100px;
+  right: 30px;
+  z-index: 99;
+}
+
+.shop_name{
+	font-size: 18px;
+	font-weight: bold;
+}
+.price{
+	text-decoration: line-through;
+	color: #cc0033;
+}
+.special{
+	font-weight: bold;
+	font-size: 18px;
+}
+.del{
+	font-style: italic;
 }
