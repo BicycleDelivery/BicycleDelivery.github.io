@@ -131,7 +131,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-color: #FFF;
 }
 .section-title {
-	margin-bottom: 70px;
+	margin-bottom: 30px;
 }
 .section-title .overlay {
 	padding: 80px 0;
@@ -142,7 +142,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .section-title hr {
 	margin: 0 auto;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 }
 .btn-custom {
 	text-transform: uppercase;
@@ -203,13 +203,13 @@ header .intro-text {
 }
 /* Features Section */
 #features {
-	padding: 120px 0 0;
+	padding: 50px 0 0;
 }
 #features .features-item {
-	margin: 0 20px;
+	margin: 0 10px;
 }
 #features img {
-	margin: 30px auto -20px;
+	margin: 10px auto -20px;
 }
 #features .about-img:before {
 	display: block;
@@ -564,4 +564,18 @@ color: #999;
 .guy{
 	display: inline-block;
 	padding: 10px;
+}
+
+.resp img{
+	margin-top: 20px;
+	width: 150px;
+	border-radius: 50%;
+}
+
+.cons img{
+	width: 200px;
+}
+
+.cons p{
+	margin-top: -20px;
 }
